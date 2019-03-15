@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Real Madrid Player Guess Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Style.css">
+
+
+</head>
+<body>
+<div class="container-fluid">
+    
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./Images/Escudo_Real_Madrid_1920.png" class="img-fluid" id="Logo" alt="Logo">
+            </div>
+            <div class="col-md-8">
+                <div class="container">
+                    <h1 class="display-3" id="title">Real Madrid</h1>
+                    <h3 class="lead">Guess Player's Name</h3>
+                    <hr class="my-2">
+                    <p>By: Francisco Cuesta</p>
+ 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card text-left">
+                  <img class="card-img-top" id="photo" src="./Images/playersillo.png" alt="">
+                  <div class="card-body">
+                    <h4 class="card-title"></h4>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <ul class="list-group">
+                        <li class="list-group-item" id="ListH"><h1>Name</h1></li>
+                        <li class="list-group-item"><h3>letters</h3></li>
+                        <li class="list-group-item"><h3>Guesses</h3></li>
+                        <li class="list-group-item"><h3>Left</h3></li>
+                        <li class="list-group-item"><h3>Correct</h3></li>
+                </ul>
+            </div>
+            <div class="col-6">
+                <ul class="list-group">
+                        <li class="list-group-item" id="ListH"><h1 id="PlayerName">Player</h1></li>
+                        <li class="list-group-item"><h3 id="UserGuesses">0</h3></li>
+                        <li class="list-group-item"><h3 id="UserGuessesNumb">0</h3></li>
+                        <li class="list-group-item"><h3 id="WordsLeft">ALL</h3></li>
+                        <li class="list-group-item"><h3 id="Answers">0</h3></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./JS/Variables.js"></script>
+
+<script src="./JS/Main.js"></script>
+</body>
+</html>
