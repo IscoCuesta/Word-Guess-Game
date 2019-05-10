@@ -3,7 +3,7 @@ var RMPlayer = ["SERGIORAMOS",
 "TONIKROOS", "LUCAMODRIC", "MARCOSLLORENTE", "MARCOASENSIO", "KARIMBENZEMA"
 ];
 
-var RMPPhoto = {"SERGIORAMOS": "./images/ramos.png",
+var RMPPhoto = {SERGIORAMOS: "./images/ramos.png",
 RAFAELVARANE: "./images/varane.png",
 DANIELCARVAJAL: "./images/carvajal.png",
 SERGIOREGUILON:  "./images/reguilon.png",
